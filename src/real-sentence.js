@@ -163,6 +163,205 @@ const sentence = [
     sentence: "Is that what you came here to tell me?",
     interpretation: "그말 하러 왔어?",
   },
+  {
+    sentence: "I'm psyched!",
+    interpretation: "너무 신나! 흥분돼!",
+  },
+  {
+    sentence: "Hop in~",
+    interpretation: "(차에) 타~",
+  },
+  {
+    sentence: "Don't rock the boat!",
+    interpretation: "말썽 피우지마.",
+  },
+  {
+    sentence: "Don't be naive.",
+    interpretation: "순진하긴.",
+  },
+  {
+    sentence: "What a day!",
+    interpretation: "기분 좋은 날이다! / 끔찍한 날이네!",
+  },
+  {
+    sentence: "Walk me out.",
+    interpretation: "좀 걷자.",
+  },
+  {
+    sentence: "I'm on it",
+    interpretation: "내가 하는 중이야.",
+  },
+  {
+    sentence: "I'm not trying to twist your arm.",
+    interpretation: "강요하려는 건 아냐.",
+  },
+  {
+    sentence: "Oh! for God's sake!",
+    interpretation: "제발 쫌!",
+  },
+  {
+    sentence: "Don't go there",
+    interpretation: "그 얘기 꺼내지마 / 거기 가지마",
+  },
+  {
+    sentence: "For your information.",
+    interpretation: "참고로 말하자면",
+  },
+  {
+    sentence: "No kidding",
+    interpretation: "장난아니야. 진짜야.",
+  },
+  {
+    sentence: "Stay close",
+    interpretation: "어디가지말고 있어",
+  },
+  {
+    sentence: "Where have you been?",
+    interpretation: "어디 있었어?",
+  },
+  {
+    sentence: "Guess what?",
+    interpretation: "그거 알아? / 있잖아",
+  },
+  {
+    sentence: "Just making chitchat.",
+    interpretation: "수다떠는 중이야",
+  },
+  {
+    sentence: "Nature calls~",
+    interpretation: "화장실 좀~",
+  },
+  {
+    sentence: "Tell me about it.",
+    interpretation: "내 말이 (누가 아니래)",
+  },
+  {
+    sentence: "Here's the deal.",
+    interpretation: "자 이렇게 하자.",
+  },
+  {
+    sentence: "A word?",
+    interpretation: "잠깐 얘기 좀 할까?",
+  },
+  {
+    sentence: "Don't get me a wrong",
+    interpretation: "오해하지마.",
+  },
+  {
+    sentence: "I owe you big",
+    interpretation: "네게 크게 신세졌어.",
+  },
+  {
+    sentence: "I'll see what I can do.",
+    interpretation: "내가 할 수 있는게 있는지 알아볼게",
+  },
+  {
+    sentence: "You have my word.",
+    interpretation: "약속할게.",
+  },
+  {
+    sentence: "No offense",
+    interpretation: "기분나쁘게 듣지 마.",
+  },
+  {
+    sentence: "I'll take my chances.",
+    interpretation: "운에 맡겨 볼래 / 일단 해볼게.",
+  },
+  {
+    sentence: "I feel like I let you down.",
+    interpretation: "널 실망시킨 것 같아.",
+  },
+  {
+    sentence: "You bet!",
+    interpretation: "물론이지!",
+  },
+  {
+    sentence: "I'll hold down the fort.",
+    interpretation: "내가 대신 (자리/일)을 봐줄게",
+  },
+  {
+    sentence: "Thank you for the heads-up.",
+    interpretation: "주의해줘서 고마워.",
+  },
+  {
+    sentence: "You wanna drink?",
+    interpretation: "한 잔 할래?",
+  },
+  {
+    sentence: "It's crap!",
+    interpretation: "헛소리야!",
+  },
+  {
+    sentence: "We're good to go!",
+    interpretation: "준비됐어! / 가는거야!",
+  },
+  {
+    sentence: "He dropped the ball.",
+    interpretation: "그가 (책임지고 있는 일을) 실수했어.",
+  },
+  {
+    sentence: "Forget it!",
+    interpretation: "신경쓰지마 / 잊어버려",
+  },
+  {
+    sentence: "Let's get back to work.",
+    interpretation: "자 다시 일하죠.",
+  },
+  {
+    sentence: "I had lot of fun!",
+    interpretation: "진짜 재밌었어!",
+  },
+  {
+    sentence: "I'm still on the clock.",
+    interpretation: "나 아직 근무중이야.",
+  },
+  {
+    sentence: "Do the math!",
+    interpretation: "잘 생각해봐!",
+  },
+  {
+    sentence: "I need you to be honest.",
+    interpretation: "솔직해주길 바래.",
+  },
+  {
+    sentence: "Bring it on!",
+    interpretation: "덤벼봐.",
+  },
+  {
+    sentence: "It's lame.",
+    interpretation: "시시해. 별로야.",
+  },
+  {
+    sentence: "I don't feel like it.",
+    interpretation: "그럴 기분 아냐 / 귀찮아",
+  },
+  {
+    sentence: "Wanna take a look?",
+    interpretation: "한번 봐 볼래?",
+  },
+  {
+    sentence: "That's enough!",
+    interpretation: "적당히 좀 해!",
+  },
+  {
+    sentence: "I'm not blowing you off!",
+    interpretation: "나 너 무시하는거 아니야!",
+  },
+  {
+    sentence: "Don't mess with me.",
+    interpretation: "까불지마.",
+  },
+  {
+    sentence: "No offense",
+    interpretation: "기분나쁘게 듣지 마.",
+  },
+  {
+    sentence: "No offense",
+    interpretation: "기분나쁘게 듣지 마.",
+  },
+  {
+    sentence: "No offense",
+    interpretation: "기분나쁘게 듣지 마.",
+  },
 ];
-
 export default sentence;
