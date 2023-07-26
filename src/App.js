@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import { useState } from "react";
+import sentence from "./real-sentence";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Button } from "react-bootstrap";
 function App() {
+  let [quote, setQuote] = useState(sentence);
+  let [btnCount, setBtnCount] = useState(0);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DaySentence quote={quote} btnCount={btnCount} />
+      <button
+        onClick={() => {
+          {
+            btnCount == 0 ? setBtnCount(btnCount) : setBtnCount(btnCount - 1);
+          }
+        }}
+      >
+        ⬅️
+      </button>
+      <button
+        onClick={() => {
+          {
+            btnCount <= quote.length
+              ? setBtnCount(btnCount + 1)
+              : setBtnCount(btnCount(quote.length));
+          }
+        }}
+      >
+        ➡️
+      </button>
     </div>
   );
 }
-
+function DaySentence(props) {
+  return (
+    <div className="day-sentence">
+      <h4>{props.quote[props.btnCount].sentence}</h4>
+      <h4>{props.quote[props.btnCount].interpretation}</h4>
+    </div>
+  );
+}
 export default App;
