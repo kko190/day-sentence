@@ -53,7 +53,7 @@ let conversation = createSlice({
     },
     {
       sentence: "What are you up to?",
-      interpretation: "너는 뭐 할거야?(너는 뭐 할 예정이야?)",
+      interpretation: "너는 뭐 할거야?(예정이야)",
     },
     {
       sentence: "You don't say...",
@@ -157,7 +157,7 @@ let conversation = createSlice({
     },
     {
       sentence: "Taketh me to ~",
-      interpretation: "~로 가주세요.(상황: 택시 탔을 때)",
+      interpretation: "~로 가주세요.(ex.택시)",
     },
     {
       sentence: "Can we talk for a minutes?",
@@ -370,8 +370,35 @@ let conversation = createSlice({
   ],
 });
 
+let recommend = createSlice({
+  name: "recommend",
+  initialState: [
+    {
+      title: "모던 패밀리",
+      season: "시즌1~11",
+      platform: "디즈니+",
+    },
+    {
+      title: "글리",
+      season: "시즌1~6",
+      platform: "디즈니+",
+    },
+    {
+      title: "더 오피스",
+      season: "시즌1~9",
+      platform: "왓챠",
+    },
+    {
+      title: "빅뱅 이론",
+      season: "시즌1~12",
+      platform: "쿠팡플레이",
+    },
+  ],
+});
+
 export default configureStore({
   reducer: {
     conversation: conversation.reducer,
+    recommend: recommend.reducer,
   },
 });
