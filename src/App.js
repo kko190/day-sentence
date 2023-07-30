@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">리핏</Navbar.Brand>
+          <Navbar.Brand href="/">리핏</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

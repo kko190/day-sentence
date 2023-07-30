@@ -393,6 +393,46 @@ let recommend = createSlice({
       season: "시즌1~12",
       platform: "쿠팡플레이",
     },
+    {
+      title: "슈츠",
+      season: "시즌1~9",
+      platform: "넷플릭스",
+    },
+    {
+      title: "그레이스 앤 프랭키",
+      season: "시즌1~7",
+      platform: "넷플릭스",
+    },
+    {
+      title: "가십걸",
+      season: "시즌1~6",
+      platform: "넷플릭스&쿠플",
+    },
+    {
+      title: "위기의 주부들",
+      season: "시즌1~8",
+      platform: "디즈니+",
+    },
+    {
+      title: "브루클린 99",
+      season: "시즌1~8",
+      platform: "넷플릭스",
+    },
+    {
+      title: "너의 모든 것",
+      season: "시즌1~3",
+      platform: "넷플릭스",
+    },
+    {
+      title: "굿 플레이스",
+      season: "시즌1~4",
+      platform: "넷플릭스",
+    },
+    {
+      title: "애나 만들기",
+      season: "총 9부작",
+      platform: "넷플릭스",
+    },
   ],
 });
 
