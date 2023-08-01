@@ -1,9 +1,9 @@
 import "./App.css";
 import Home from "./home";
 import Test from "./test";
+import Recommend from "./recommend";
 import { useState } from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { Button } from "react-bootstrap";
+import { useSelector } from "react-redux";
 import { Routes, Route, Link, useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
@@ -18,21 +18,9 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="/">Study</Nav.Link>
+              <Nav.Link href="/"></Nav.Link>
               <Nav.Link href="/test">Test</Nav.Link>
-              <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown>
+              <Nav.Link href="/recommend">Recommend</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -40,6 +28,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/test" element={<Test />}></Route>
+        <Route path="/recommend" element={<Recommend />}></Route>
       </Routes>
     </div>
   );

@@ -357,15 +357,76 @@ let conversation = createSlice({
     },
     {
       sentence: "No offense",
-      interpretation: "기분나쁘게 듣지 마.",
+      interpretation: "기분 나쁘게 듣지 마.",
+    },
+
+    {
+      sentence: "I'm just exaggeration a bit.",
+      interpretation: "말이 그렇다는 것이죠.",
     },
     {
-      sentence: "No offense",
-      interpretation: "기분나쁘게 듣지 마.",
+      sentence: "Nothing can excuse this.",
+      interpretation: "변명의 여지가 없습니다.",
     },
     {
-      sentence: "No offense",
-      interpretation: "기분나쁘게 듣지 마.",
+      sentence: "This is a foolproof plan!",
+      interpretation: "이건 아주 쉬워!",
+    },
+    {
+      sentence: "Does it ring a bell?",
+      interpretation: "그거 기억 나?",
+    },
+    {
+      sentence: "I have a lot on my plate.",
+      interpretation: "할 일이 산더미 처럼 많아.",
+    },
+    {
+      sentence: "I'm gonna have to take a rain check.",
+      interpretation: "다음으로 미뤄야만 할 것 같아요.",
+    },
+    {
+      sentence: "It's rings a bell.",
+      interpretation: "기억이 날 듯 말 듯해.",
+    },
+    {
+      sentence: "I'll have to sleep on it.",
+      interpretation: "내가 좀 더 생각해 볼게.",
+    },
+    {
+      sentence: "I'm don't feel well.",
+      interpretation: "컨디션이 좋지 않네요.",
+    },
+    {
+      sentence: "You're on the right track.",
+      interpretation: "잘 하고 있어(칭찬, 격려).",
+    },
+    {
+      sentence: "Stop acting coy.",
+      interpretation: "내숭 좀 그만 떨어.",
+    },
+    {
+      sentence: "That's my affair!.",
+      interpretation: "네 알바 아냐!",
+    },
+    {
+      sentence: "That's much better.",
+      interpretation: "이제 좀 살 것 같아요.",
+    },
+    {
+      sentence: "That's no bottle.",
+      interpretation: "그건 쓸 데 없는 짓이다.",
+    },
+    {
+      sentence: "You bet I do!",
+      interpretation: "내 말이!",
+    },
+    {
+      sentence: "Your butt is on fire.",
+      interpretation: "발등에 불 떨어졌구나.",
+    },
+    {
+      sentence: "I think I like it better that way.",
+      interpretation: "난 저 방식이 더 좋은 것 같아.",
     },
   ],
 });
